@@ -4,6 +4,7 @@ const router = express.Router();
 const Therapist = require('../models/Therapist');
 
 // Search therapists with filters
+//According to the requirements of the user
 router.get('/search', async (req, res) => {
   try {
     const { 
